@@ -13,6 +13,7 @@ class Gnews:
         self.category = None
         self.country = None
         self.language = None
+        self.max_article_count = 10
         self.from_date = None
         self.to_date = None
 
@@ -26,6 +27,10 @@ class Gnews:
 
     def set_language(self, language: Language):
         self.language = language.value
+        return self
+
+    def set_max_article_count(self, count: int):
+        self.max_article_count = str(count)
         return self
 
     def set_from_date(self, from_date: datetime):
@@ -43,6 +48,7 @@ class Gnews:
             category=self.category,
             country=self.country,
             language=self.language,
+            max_article_count=self.max_article_count,
             from_date=self.from_date,
             to_date=self.to_date
         )

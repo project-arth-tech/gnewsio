@@ -1,6 +1,7 @@
 import time
 import random
 
+
 class Retrier:
     def __init__(self, max_retries=5, base_delay=1.0, jitter=0.5):
         self.max_retries = max_retries
