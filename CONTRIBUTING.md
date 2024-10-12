@@ -21,6 +21,7 @@ Before you start, ensure you have the following tools installed:
 
 
 ### 4. Publishing to PyPI
-	Once you have an account on PyPI, you can upload the package by running the following command:
-   	```twine upload dist/*
-	```
+Once you have an account on PyPI, you can upload the package by running the following command:
+
+    twine upload dist/*
+	

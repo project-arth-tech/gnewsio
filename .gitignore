@@ -13,3 +13,4 @@ dist/
 
 # IDE
 .idea
+/test.py
