@@ -5,13 +5,11 @@ from gnews.api_client import APIClient
 
 
 class Gnews:
-    def __init__(self, api_key):
-        self.api_key = api_key
+    def __init__(self, api_key=None):
         self.api_key = api_key or os.getenv("GNEWS_IO__API_KEY")
         if not self.api_key:
-            raise ValueError(
-                "API key must be provided either directly or through the environment variable GNEWS_IO__API_KEY.")
-
+            raise ValueError("API key must be provided either directly or through the environment "
+                             "variable GNEWS_IO__API_KEY.")
         self.category = None
         self.country = None
         self.language = None
