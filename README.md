@@ -2,14 +2,14 @@
 
 A Python client for the gnews.io APIs that supports category, country, and language filtering.
 
-## Installation
+### Installation
 
-```
+```cmd
 pip install gnewsio
 ```
 
 ### Usage
-```
+```python
 from gnews.client_builder import Gnews
 from gnews.enums import Category, Country, Language
 from datetime import datetime
