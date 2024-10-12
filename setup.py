@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="gnewsio",  # Package name
-    version="0.1.3",
+    version="0.1.5",
     description="A Python client for the GNews API with category, country, and language filtering",
     author="Sanket Mishra",
     author_email="isanketmishra@gmail.com",
