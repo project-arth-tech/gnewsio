@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Environment
+.env
+
+# IDE
+.idea
